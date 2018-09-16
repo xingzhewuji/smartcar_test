@@ -68,7 +68,7 @@ Serial.begin(9600);//设置波特率为9600
 
 void loop()
 {
-      for(pos = 0; pos < 180; pos += 1)  
+  for(pos = 0; pos < 180; pos += 1)  
    {  
       myservo.write(pos);  
       delay(15); 
@@ -93,7 +93,7 @@ void loop()
     delay(3000);
     stop();
     delay(3000);
-      }
+    }
 
 
 //delay(10);//延时0.01 秒
